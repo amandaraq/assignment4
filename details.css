@@ -1,0 +1,38 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #CDDC39;
+}
+
+header {
+    background-color: #795548;
+    text-align: center;
+    padding: 10px;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border: 1px solid #000000;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position:static;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #CDDC39;
+    text-decoration: none;
+}

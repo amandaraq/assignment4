@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Evaluation Form</title>
+    <link rel="stylesheet" href="details.css">
+</head>
+
+<body>
+    <header>
+        <a href="https://www.centennialcollege.ca/" target="_blank">
+            <img src="Centennial_College_Logo.jpg" alt="Centennial College Logo">
+        </a>
+    </header>
+   
+    <div id="content">
+        <h1 style="font-family:Georgia, 'Times New Roman', Times, serif">Centennial College</h1>
+        <h2 style="font-family:Georgia, 'Times New Roman', Times, serif">Continuing Education Course/Instructor Evaluation</h2>
+        <p style="font-family: Georgia, 'Times New Roman', Times, serif;">Please read each statement carefully and consider each one individually. Please make sure to <strong>select an option</strong> to state your choice. Give only <strong>one answer</strong> for each question.</p>    
+    </div>
+
+    <form method="post" name="Course/Instructor Evaluation" id="Course/Instructor Evaluation">
+        <label for="txtCourseID">Course Name/Code:</label>
+        <input id="txtCourseID" name="txtCourseID" size="25" tabindex="1" type="text" required="required">
+        <label for="Semester">Semester:</label>
+        <select id="Semester" name="Semester" multiple="multiple" size="3" tabindex="35">
+        <option value="Fall">Fall</option>
+        <option value="Winter">Winter</option>
+        <option value="Spring/Summer">Spring/Summer</option>
+     </select>
+     <label for="myDate">Date</label>
+     <input type="date" name="myDate" id="myDate">
+     <label for="InstructorName">Instructor:</label>
+     <input id="InstructorName" name="InstructorName" size="25" tabindex="1" type="text" required="required">
+
+     <fieldset>
+        <legend><strong>Instructor</strong></legend>
+        <p>How would you rate the instructor's:</p>
+        <p>
+           <label for="knowledgeRating">1.<strong> Knowledge</strong> of the subject?</label>
+           <input id="knowledgeRating" name="KnowledgeRating" tabindex="15" type="radio" value="Sec">Excellent
+           <input id="knowledgeRating" name="KnowledgeRating" tabindex="15" type="radio" value="Sec">Good
+           <input id="knowledgeRating" name="KnowledgeRating" tabindex="15" type="radio" value="Sec">Fair
+           <input id="knowledgeRating" name="KnowledgeRating" tabindex="15" type="radio" value="Sec">Not Satisfactory
+        </p>
+        <p>
+            <label for="helpRating">2.<strong> Helpfulness</strong>?</label>
+            <input id="helpRating" name="helpRating" tabindex="15" type="radio" value="Sec">Excellent
+            <input id="helpRating" name="helpRating" tabindex="15" type="radio" value="Sec">Good
+            <input id="helpRating" name="helpRating" tabindex="15" type="radio" value="Sec">Fair
+            <input id="helpRating" name="helpRating" tabindex="15" type="radio" value="Sec">Not Satisfactory
+         </p>
+         <p>
+            <label for="respectRating">3.<strong> Courtesy and respect</strong> for all students?</label>
+            <input id="respectRating" name="respectRating" tabindex="15" type="radio" value="Sec">Excellent
+            <input id="respectRating" name="respectRating" tabindex="15" type="radio" value="Sec">Good
+            <input id="respectRating" name="respectRating" tabindex="15" type="radio" value="Sec">Fair
+            <input id="respectRating" name="respectRating" tabindex="15" type="radio" value="Sec">Not Satisfactory
+         </p>
+         <p>
+            <label for="commRating">4.<strong> Communication</strong> skills?</label>
+            <input id="commRating" name="commRating" tabindex="15" type="radio" value="Sec">Excellent
+            <input id="commRating" name="commRating" tabindex="15" type="radio" value="Sec">Good
+            <input id="commRating" name="commRating" tabindex="15" type="radio" value="Sec">Fair
+            <input id="commRating" name="commRating" tabindex="15" type="radio" value="Sec">Not Satisfactory
+         </p>
+         <p>
+            <label for="totalRating">5. Overall<strong> performance</strong>?</label>
+            <input id="totalRating" name="totalRating" tabindex="15" type="radio" value="Sec">Excellent
+            <input id="totalRating" name="totalRating" tabindex="15" type="radio" value="Sec">Good
+            <input id="totalRating" name="totalRating" tabindex="15" type="radio" value="Sec">Fair
+            <input id="totalRating" name="totalRating" tabindex="15" type="radio" value="Sec">Not Satisfactory
+         </p>
+     </fieldset>
+
+     <fieldset>
+        <legend><strong>Course</strong></legend>
+        <p>
+           <label for="courseMat">6. How would you rate the<strong> course materials</strong>?</label>
+           <input id="courseMat" name="courseMat" tabindex="15" type="radio" value="Sec">Excellent
+           <input id="courseMat" name="courseMat" tabindex="15" type="radio" value="Sec">Good
+           <input id="courseMat" name="courseMat" tabindex="15" type="radio" value="Sec">Fair
+           <input id="courseMat" name="courseMat" tabindex="15" type="radio" value="Sec">Not Satisfactory
+        </p>
+        <p>
+            <label for="studExpect">7. How much did this course meet your<strong> expectations</strong>?</label>
+            <input id="studExpect" name="studExpect" tabindex="15" type="radio" value="Sec">Excellent
+            <input id="studExpect" name="studExpect" tabindex="15" type="radio" value="Sec">Good
+            <input id="studExpect" name="studExpect" tabindex="15" type="radio" value="Sec">Fair
+            <input id="studExpect" name="studExpect" tabindex="15" type="radio" value="Sec">Not Satisfactory
+         </p>
+         <p>
+            <label for="overallRating">8. How would you rate this course (<strong>overall</strong>)?</label>
+            <input id="overallRating" name="overallRating" tabindex="15" type="radio" value="Sec">Excellent
+            <input id="overallRating" name="overallRating" tabindex="15" type="radio" value="Sec">Good
+            <input id="overallRating" name="overallRating" tabindex="15" type="radio" value="Sec">Fair
+            <input id="overallRating" name="overallRating" tabindex="15" type="radio" value="Sec">Not Satisfactory
+         </p>
+     </fieldset>
+
+     <fieldset>
+        <legend><strong>General Information</strong></legend>
+        <p>
+           <label for="genInfo">9. Was the<strong> course outline</strong> reviewed/explained at the beginning of your course?</label>
+           <input id="genInfo" name="genInfo" tabindex="15" type="radio" value="Sec">Yes
+           <input id="genInfo" name="genInfo" tabindex="15" type="radio" value="Sec">No
+           <input id="genInfo" name="genInfo" tabindex="15" type="radio" value="Sec">Not sure
+        </p>
+        <p>
+            <label for="studRecom">10. Would you<strong> recommend</strong> this course to a friend with the same interests?</label>
+            <input id="genInfo" name="genInfo" tabindex="15" type="radio" value="Sec">Yes
+           <input id="genInfo" name="genInfo" tabindex="15" type="radio" value="Sec">No
+           <input id="genInfo" name="genInfo" tabindex="15" type="radio" value="Sec">Not sure
+         </p>
+     </fieldset>
+
+     <fieldset>
+        <legend><strong>Additional Comments</strong></legend>
+        <p>Please use the space below to give us your feedback.</p>
+        <p>
+        <label for="studComment">11. What is the<strong> best thing</strong> about this course?</label>
+        <textarea id="studComment" cols="50" name="studComment" rows="8" tabindex="37"></textarea>
+        </p>
+
+        <p>
+        <label for="studImprove">12. How could we<strong> improve</strong> this course?</label>
+        <textarea id="studImprove" cols="50" name="studImprove" rows="8" tabindex="37"></textarea>
+        </p>
+
+        <p>
+            <label for="studOther">13. Other:</label>
+            <textarea id="studOther" cols="50" name="studOther" rows="8" tabindex="37"></textarea>
+            </p>
+     </fieldset>
+    </form>
+    <p>
+        <input type="submit" value="Submit Course/Instructor Evaluation" style="font-family:Georgia, 'Times New Roman', Times, serif">
+        <input type="reset" value="Clear Form" style="font-family:Georgia, 'Times New Roman', Times, serif">
+    </p>
+    <footer>
+        <p>
+            <a style="font-family: Georgia, 'Times New Roman', Times, serif;" href="https://www.centennialcollege.ca" target="_blank">Website: https://www.centennialcollege.ca</a> |
+            <a style="font-family: Georgia, 'Times New Roman', Times, serif;" href="mailto:continuingeducation@centennialcollege.ca">Email: continuingeducation@centennialcollege.ca</a>
+        </p>
+    </footer>
+</body>
+</html>
